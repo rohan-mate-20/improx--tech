@@ -4,7 +4,7 @@ import { Link, useLocation } from 'react-router-dom';
 /* ─── Mega Menu Service Categories with Descriptions & Icons ──────────────── */
 const NAV_SERVICES = [
   {
-    label: 'Application Services',
+    label: 'AAApplication Services',
     to: '/services/application-services',
     featured: {
       title: 'Enterprise App Suite',
