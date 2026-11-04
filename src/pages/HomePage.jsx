@@ -846,8 +846,8 @@ function HomePage() {
               </p>
               {[
                 { icon: 'fa-location-dot', text: 'Pune, India · Global Delivery' },
-                { icon: 'fa-phone',        text: '+91 98XXX XXXXX'              },
-                { icon: 'fa-envelope',     text: 'info@improxtech.com'          },
+                { icon: 'fa-phone',        text: '+91 91564 70600'              },
+                { icon: 'fa-envelope',     text: 'enquiry@improxgroup.com'      },
               ].map(item => (
                 <div key={item.text} style={{ display: 'flex', alignItems: 'center', gap: '14px', marginBottom: '18px', color: 'var(--text-hi)', fontSize: '0.95rem' }}>
                   <div style={{ width: '40px', height: '40px', borderRadius: '50%', background: 'rgba(37,99,235,.08)', border: '1px solid rgba(37,99,235,.20)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--brand-lt)', flexShrink: 0 }}>

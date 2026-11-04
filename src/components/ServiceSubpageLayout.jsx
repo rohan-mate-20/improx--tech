@@ -263,8 +263,15 @@ function ServiceSubpageLayout({ hero, overview, features, benefits, process, use
                 )}
               </h2>
               <p style={{ color: 'var(--text-mid)', fontSize: '1rem', lineHeight: 1.78, marginBottom: '28px' }}>{ctaBody}</p>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '10px', color: 'var(--text-hi)', fontSize: '0.92rem' }}>
-                <i className="fa-solid fa-envelope" style={{ color: 'var(--brand)' }} /> info@improxtech.com
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', color: 'var(--text-hi)', fontSize: '0.92rem', marginTop: '12px' }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                  <i className="fa-solid fa-envelope" style={{ color: 'var(--brand)' }} />
+                  <a href="mailto:enquiry@improxgroup.com" style={{ color: 'inherit', textDecoration: 'none' }}>enquiry@improxgroup.com</a>
+                </div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                  <i className="fa-solid fa-phone" style={{ color: 'var(--brand)' }} />
+                  <a href="tel:+919156470600" style={{ color: 'inherit', textDecoration: 'none' }}>+91 91564 70600</a>
+                </div>
               </div>
             </div>
             <ContactForm />

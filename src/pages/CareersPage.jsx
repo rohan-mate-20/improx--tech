@@ -108,7 +108,7 @@ export default function CareersPage() {
             <span className="eyebrow" style={{ color: 'var(--brand)', justifyContent: 'center' }}>Current Openings</span>
             <h2 style={{ fontSize: 'clamp(2rem, 3.5vw, 2.8rem)', fontWeight: 800, color: 'var(--text-hi)' }}>Explore Available Opportunities</h2>
             <p style={{ color: 'var(--text-mid)', fontSize: '0.96rem', marginTop: '12px' }}>
-              Don't see an exact match? Send your resume to <a href="mailto:careers@improxtech.com" style={{ color: 'var(--brand)', fontWeight: 600 }}>careers@improxtech.com</a>.
+              Don't see an exact match? Send your resume to <a href="mailto:enquiry@improxgroup.com" style={{ color: 'var(--brand)', fontWeight: 600 }}>enquiry@improxgroup.com</a>.
             </p>
           </div>
 

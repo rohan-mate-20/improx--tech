@@ -46,8 +46,8 @@ function ContactPage() {
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
                   {[
                     { icon: 'fa-location-dot', t: 'Pune Delivery HQ', d: 'Improx Tech, Baner Road, Pune, Maharashtra, India' },
-                    { icon: 'fa-envelope',     t: 'Email Inquiry',  d: 'info@improxtech.com / sales@improxtech.com' },
-                    { icon: 'fa-phone',        t: 'Call Us',        d: '+91 98XXX XXXXX (Sales & Partnerships)' }
+                    { icon: 'fa-envelope',     t: 'Email Inquiry',  d: 'enquiry@improxgroup.com' },
+                    { icon: 'fa-phone',        t: 'Call Us',        d: '+91 91564 70600 (Sales & Partnerships)' }
                   ].map((item, idx) => (
                     <div key={idx} style={{ display: 'flex', gap: '16px', alignItems: 'flex-start' }}>
                       <div style={{ width: '42px', height: '42px', borderRadius: '50%', background: 'rgba(37,99,235,0.06)', border: '1px solid rgba(37,99,235,0.12)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--brand)', flexShrink: 0 }}>
